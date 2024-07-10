@@ -1,0 +1,12 @@
+.option {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  border: 1px solid black;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #000000;
+  background-color: #cfe4f2;
+  border: 1px solid #cfe4f2
+}
+
