@@ -32,7 +32,7 @@ export const Input: FC<IProps> = (props) => {
   return (
     <div>
       {label && <label className={css.label}>{label}</label>}
-      <input {...inputAttributes} onChange={handleOnChange} />
+      <input {...inputAttributes} onChange={handleOnChange} value={value} />
     </div>
   );
 };
